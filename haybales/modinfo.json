@@ -1,0 +1,12 @@
+﻿{
+  "type": "content",
+  "name": "haybales",
+  "description" : "More efficient hay storage",
+  "author": "conninator2000",
+  "version": "1.0",
+  "gameversions": [ "1.18+" ],
+  "website": "N/A",
+  "dependency": {
+    "game": "1.18.0"
+  }
+}

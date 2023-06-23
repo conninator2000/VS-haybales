@@ -1,0 +1,49 @@
+{
+    code: "haybale",
+    creativeinventory: { "general": ["*"] },
+
+    attributes: {
+        allowUnstablePlacement: true
+    },
+
+    behaviors: [
+        { name : "CanIgnite"},
+        { name : "UnstableFalling",  properties: { fallSound: "effect/hay-fall", dustIntensity: 1.5, fallSidewaysChance: 1} },
+        { name : "Pillar"}
+    ],
+	blockmaterial: "Plant",
+    variantgroups: [
+		{ code: "rotation", states: ["ud", "ns", "we"] }
+	],
+    sideopaque: {
+		all: false
+	},
+    snowcoverage : true,
+    drawtype: "json",
+    shapeByType: { 
+        "*-ud": { base : "block/haybale", rotatex: 90},
+        "*-ns": { base : "block/haybale"},
+        "*-we": { base : "block/haybale", rotatey: 90}
+    },
+	resistance: 0.25,
+	sounds: {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+
+    combustibleProps: {
+        burnTemperature: 600,
+        burnDuration: 20
+    },
+
+    replaceable: 900,
+	lightAbsorption: 99,
+    materialDensity: 200,
+	heldTpIdleAnimation: "holdbothhandslarge", 
+	heldTpUseAnimation: "twohandplaceblock",
+
+    drops: [
+		{ type: "block", code: "haybale-ud", quantity: { avg: 1 }  }
+	]
+}
