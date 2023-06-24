@@ -1,0 +1,35 @@
+[
+{
+	ingredientPattern: "GT",
+	ingredients: {
+		"G" : {type: "item", code: "game:drygrass", quantity: 64},
+		"T" : {type: "item", code: "*:*twine"}
+	},	
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output : {type: "block", code:"haybale-ud", quantity:1}
+},
+
+{
+	ingredientPattern: "GT",
+	ingredients: {
+		"G" : {type: "item", code: "game:drygrass", quantity: 64},
+		"T" : {type: "item", code: "*:twine*"}
+	},	
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output : {type: "block", code:"haybale-ud", quantity:1}
+},
+{
+	ingredientPattern: "H",
+	ingredients: {
+		"H" : {type: "block", code: "haybale-ud"}
+	},
+	width: 1,
+	height: 1,
+	shapeless: true,
+	output : {type: "item", code: "game:drygrass", quantity: 64}
+}
+]
