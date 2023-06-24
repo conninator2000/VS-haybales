@@ -3,7 +3,8 @@
     creativeinventory: { "general": ["*"] },
 
     attributes: {
-        allowUnstablePlacement: true
+        allowUnstablePlacement: true,
+	handbook: {}
     },
 
     behaviors: [
