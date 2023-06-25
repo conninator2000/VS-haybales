@@ -1,0 +1,10 @@
+{
+    "comment_description": "Japanese localization file for 'Hey! Bales!'.",
+    "comment_version": "Mod Version: v1.0.2",
+    "comment_author": "Translated By: Macoto Hino",
+    "comment_technical_details": "Machine translation using PCOT and DeepL.",
+
+	"block-haybale-ud" : "干し草の俵",
+	"block-haybale-ns" : "干し草の俵",
+	"block-haybale-we" : "干し草の俵",
+}
