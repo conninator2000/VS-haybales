@@ -1,0 +1,18 @@
+[
+  {
+    "file": "recipes/grid/compatibility/hideandfabric/haybale-haf.json",
+    "op": "replace",
+    "path": "/enabled",
+    "value": "true",
+    "dependsOn": [{ "modid": "hideandfabric" }]
+  },
+
+    {
+    "file": "recipes/grid/compatibility/primitivesurvival/haybale-ps.json",
+    "op": "replace",
+    "path": "/enabled",
+    "value": "true",
+    "dependsOn": [{ "modid": "primitivesurvival" }]
+  }
+  
+]

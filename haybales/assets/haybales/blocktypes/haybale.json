@@ -8,13 +8,13 @@
     },
 
     behaviors: [
-        { name : "CanIgnite"},
-        { name : "UnstableFalling",  properties: { fallSound: "effect/hay-fall", dustIntensity: 1.5, fallSidewaysChance: 1} },
-        { name : "Pillar"}
+	{ name: "Pillar" }, 
+	{ name: "WrenchOrientable", properties: { baseCode: "haybale"  } },
+        { name : "UnstableFalling",  properties: { fallSound: "effect/hay-fall", dustIntensity: 1.5, fallSidewaysChance: 1} }
     ],
 	blockmaterial: "Plant",
     variantgroups: [
-		{ code: "rotation", states: ["ud", "ns", "we"] }
+		{ code: "orientation", states: ["ud", "ns", "we"] }
 	],
     sideopaque: {
 		all: false
