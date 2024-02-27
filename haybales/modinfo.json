@@ -3,10 +3,10 @@
   "name": "haybales",
   "description" : "More efficient hay storage",
   "author": "conninator2000",
-  "version": "1.1.1",
-  "gameversions": [ "1.18+" ],
+  "version": "1.1.2",
+  "gameversions": [ "1.19+" ],
   "website": "https://github.com/conninator2000/VS-haybales",
   "dependency": {
-    "game": "1.18.0"
+    "game": "1.19.0"
   }
 }
